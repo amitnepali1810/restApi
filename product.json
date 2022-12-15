@@ -2,14 +2,14 @@
     {
         "name": "Earphone",
         "price": "1000",
-        "featured": "false",
+        "featured": "true",
         "rating": "4.8",
         "company": "apple"
     },
     {
         "name": "IPhone 10",
         "price": "100000",
-        "featured": "false",
+        "featured": "true",
         "rating": "4.9",
         "company": "apple"
     },
@@ -44,7 +44,7 @@
     {
         "name": "Laptop",
         "price": "150000",
-        "featured": "false",
+        "featured": "true",
         "rating": "4.8",
         "company": "dell"
     }
