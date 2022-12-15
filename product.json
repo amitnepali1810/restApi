@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Earphone",
+        "price": "1000",
+        "featured": "false",
+        "rating": "4.8",
+        "company": "apple"
+    },
+    {
+        "name": "IPhone 10",
+        "price": "100000",
+        "featured": "false",
+        "rating": "4.9",
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 13 Pro Max",
+        "price": "150000",
+        "featured": "false",
+        "rating": "4.5",
+        "company": "apple"
+    },
+    {
+        "name": "Iwatch",
+        "price": "4000",
+        "featured": "false",
+        "rating": "4.3",
+        "company": "apple"
+    },
+    {
+        "name": "Speaker",
+        "price": "1000",
+        "featured": "false",
+        "rating": "4.4",
+        "company": "samsung"
+    },
+    {
+        "name": "Television",
+        "price": "100000",
+        "featured": "false",
+        "rating": "4.7",
+        "company": "hp"
+    },
+    {
+        "name": "Laptop",
+        "price": "150000",
+        "featured": "false",
+        "rating": "4.8",
+        "company": "dell"
+    }
+
+]
