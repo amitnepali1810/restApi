@@ -9,7 +9,7 @@ exports.getAllProducts = async (req, res, next) => {
 }
 
 exports.getTestProducts = async(req, res, next) => {
-    let products = await Product.find();
+    let products = await Product.find(req.query);
     res.status(200).json({
         products,
         msg: "product test successful"
