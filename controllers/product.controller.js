@@ -2,7 +2,7 @@ const Product = require("../models/product.model");
 
 exports.getAllProducts = async (req, res, next) => {
 
-    const { company, name, featured, sort } = req.query;
+    const { company, name, featured,sort, select } = req.query;
     const objectQuery = {};
 
     if(company){
@@ -23,6 +23,12 @@ exports.getAllProducts = async (req, res, next) => {
         let sortFix = sort.replace(",", " ");
         apiData = apiData.sort(sortFix);
     }
+
+    if(select){
+        let selectFix = select.split(",").join(" ");
+        apiData = apiData.select(selectFix);
+    }
+
 
     console.log(objectQuery);
     
